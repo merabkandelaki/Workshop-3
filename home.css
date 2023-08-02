@@ -1,0 +1,139 @@
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.2;
+}
+
+/* Header Start */
+
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #FFF;
+}
+
+.header__container {
+    max-width: 1180px;
+    min-height: 96px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo__img {
+    width: 180px;
+    height: 96px;
+}
+
+.menu__list {
+    display: flex;
+    gap: 121px;
+}
+
+.menu__list-link {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.link__home {
+    color: #F50808;
+}
+
+.link__about,
+.link__contact {
+    color: #2414DB;
+}
+
+/* Header Finish */
+
+/* Main Start */
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.cover__img {
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.article {
+    background-color: #FFF;
+    margin-bottom: 120px;
+}
+
+.article__container {
+    max-width: 1180px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 780px;
+    min-height: 116px;
+}
+
+.content h1 {
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    color: #17326E;
+    font-size: 36px;
+}
+
+.content p {
+    color: #090346;
+    font-size: 20px;
+}
+
+.section {
+    background-color: #EBEBF0;
+}
+
+.section__container {
+    max-width: 1180px;
+    min-height: 197px;
+    padding: 121px 0 121px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.image {
+    min-height: 197px;
+}
+
+/* Main Finish */
+
+/* Footer Start */
+
+.footer {
+    background-color: #19126B;
+}
+
+.footer__container {
+    max-width: 1180px;
+    min-height: 60px;
+    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__content p {
+    color: #FFF;
+    font-size: 16px;
+}
+
+/* Footer Finish */
